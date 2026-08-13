@@ -29,7 +29,14 @@
     display:flex ;
     gap:20px;
 }
+.content{
+    display:flex;
+    justify-content:space space-between;
 
+}
+.heading{
+    font-size:48px;
+}
 
 .profile{
     height:200px;
