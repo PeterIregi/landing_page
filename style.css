@@ -1,0 +1,14 @@
+.parent{
+    
+    display:flex;
+}
+.child-one{
+   background-color: #1F2937; 
+   display:flex;
+   color:white;
+}
+
+.profile{
+    height:200px;
+    width:200px;
+}
