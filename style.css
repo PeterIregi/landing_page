@@ -1,12 +1,35 @@
 .parent{
     
     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto";
+    
 }
 .child-one{
    background-color: #1F2937; 
    display:flex;
+   flex-direction: column;
    color:white;
+   padding-left:200px;
+   padding-right:200px;
 }
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:90px;
+    margin-top:10px;
+}
+.logo{
+    font-size:24px;
+    color:#F9FAF8;
+    font-weight: 700;
+}
+.right{
+    display:flex ;
+    gap:20px;
+}
+
 
 .profile{
     height:200px;
