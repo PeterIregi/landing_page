@@ -28,10 +28,14 @@
 .right{
     display:flex ;
     gap:20px;
+    font: 18px;
+    color:#E5E7EB
 }
 .content{
     display:flex;
-    justify-content:space space-between;
+    justify-content:space-between;
+    padding-bottom : 90px;
+    gap:10px;
 
 }
 .heading{
@@ -39,6 +43,24 @@
 }
 
 .profile{
-    height:200px;
-    width:200px;
+    height:350px;
+    width:350px;
+    border-radius: 50%;
+}
+.other{
+    font-size:18px;
+    color:#E5E7EB;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.sign-up{
+    background-color: #3882F6;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 8px;
+    color:#F9FAF8;
 }
