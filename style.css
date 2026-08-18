@@ -13,6 +13,7 @@
    color:white;
    padding-left:200px;
    padding-right:200px;
+   padding-bottom:50px;
 }
 .header{
     display:flex;
@@ -37,6 +38,14 @@
     padding-bottom : 90px;
     gap:10px;
 
+}
+.text{
+    width:50%
+}
+.img{
+    width:50%;
+    display:flex;
+    justify-content: center;
 }
 .heading{
     font-size:48px;
@@ -64,4 +73,9 @@
     border-radius: 8px;
     color:#F9FAF8;
     font-weight:900;
+}
+.outer-div{
+    display:flex;
+    justify-content: center;
+    
 }
