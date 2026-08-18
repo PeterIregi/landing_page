@@ -74,8 +74,34 @@
     color:#F9FAF8;
     font-weight:900;
 }
+.child-two{
+    padding-left:200px;
+   padding-right:200px; 
+}
 .outer-div{
     display:flex;
     justify-content: center;
+    flex-direction: column;
+
+}
+.boxes{
+    display:flex;
     
+
+}
+.topic{
+    text-align: center;
+}
+.container{
+    display:flex;
+    width:200px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+    height: 50px;
+    width:50px;
+    border-color: #3882F6;
+    border:1px solid;
 }
