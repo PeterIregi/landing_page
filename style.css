@@ -86,22 +86,35 @@
 }
 .boxes{
     display:flex;
+    justify-content: space-between;
     
 
 }
 .topic{
     text-align: center;
+    font-size:36px;
+    color:#1F2937;
+    font-weight:900;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .container{
     display:flex;
     width:200px;
     padding: 10px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .box{
-    height: 50px;
-    width:50px;
-    border-color: #3882F6;
-    border:1px solid;
+    height: 150px;
+    width:150px;
+    border:3px solid #3882F6;
+    border-radius: 5px;
+}
+.txt{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    
 }
